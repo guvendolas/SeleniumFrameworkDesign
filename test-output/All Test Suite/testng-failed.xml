@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/guven/Desktop/Selenium/SeleniumFrameworkDesign(failed)">
+    <classes>
+      <class name="InarAcademy.VerifyTestCasesPage">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="confirmTheTestCasePage"/>
+          <include name="setUpSuite"/>
+          <include name="tearUp"/>
+        </methods>
+      </class> <!-- InarAcademy.VerifyTestCasesPage -->
+      <class name="InarAcademy.VerifyAllProductsAndProductDetailPage">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="clickProductsPageAndConfirm"/>
+          <include name="setUpSuite"/>
+          <include name="tearUp"/>
+          <include name="productDetailsAndConfirm"/>
+        </methods>
+      </class> <!-- InarAcademy.VerifyAllProductsAndProductDetailPage -->
+      <class name="InarAcademy.SearchProduct">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="clickProductsPageAndConfirm"/>
+          <include name="searchProduct"/>
+          <include name="tearUp"/>
+          <include name="confirmSearchProduct"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- InarAcademy.SearchProduct -->
+    </classes>
+  </test> <!-- C:/Users/guven/Desktop/Selenium/SeleniumFrameworkDesign(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

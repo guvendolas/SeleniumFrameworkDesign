@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/guven/Desktop/Selenium/SeleniumFrameworkDesign">
+        <classes>
+            <class name="InarAcademy.LoginUserWithIncorrectEmailAndPassword"></class>
+            <class name="InarAcademy.LoginUserWithCorrectEmailAndPassword"></class>
+            <class name="InarAcademy.LogoutUser"></class>
+            <class name="InarAcademy.ContactUsForm"></class>
+            <class name="InarAcademy.RegisterUserWithExistingEmail"></class>
+            <class name="InarAcademy.VerifyTestCasesPage"></class>
+            <class name="InarAcademy.VerifyAllProductsAndProductDetailPage"></class>
+            <class name="InarAcademy.SearchProduct"></class>
+            <class name="InarAcademy.SubscriptionInHomePage"></class>
+        </classes>
+    </test>
+</suite>
