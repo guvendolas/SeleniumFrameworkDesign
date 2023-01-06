@@ -5,65 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="189335fe-6a8e-48ab-8ce7-defb3ec2873e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/file/ThanksText.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/ContactUsForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/LoginPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/LoginUserWithCorrectEmailAndPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/LoginUserWithIncorrectEmailAndPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/LogoutUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/RegisterUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/RegisterUserWithExistingEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/SearchProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/SubscriptionInHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/VerifyAllProductsAndProductDetailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/VerifyTestCasesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/deneme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/C__Users_guven_Desktop_Selenium_SeleniumFrameworkDesign.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/C__Users_guven_Desktop_Selenium_SeleniumFrameworkDesign.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-InarAcademy.ContactUsForm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-InarAcademy.LoginUserWithCorrectEmailAndPassword.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-InarAcademy.LoginUserWithIncorrectEmailAndPassword.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-InarAcademy.LogoutUser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-InarAcademy.RegisterUserWithExistingEmail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-InarAcademy.SearchProduct.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-InarAcademy.SubscriptionInHomePage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-InarAcademy.VerifyAllProductsAndProductDetailPage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-InarAcademy.VerifyTestCasesPage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/C__Users_guven_Desktop_Selenium_SeleniumFrameworkDesign.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InarAcademy/deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InarAcademy/deneme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +51,7 @@
       <recent name="InarAcademy" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/guven/Desktop/Selenium/SeleniumFrameworkDesign">
+  <component name="RunManager" selected="Application.deneme">
     <configuration name="deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InarAcademy.deneme" />
       <module name="SeleniumFrameworkDesign" />
@@ -260,11 +203,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.deneme" />
         <item itemvalue="TestNG.C:/Users/guven/Desktop/Selenium/SeleniumFrameworkDesign/testng.xml" />
         <item itemvalue="TestNG.SubscriptionInHomePage" />
         <item itemvalue="TestNG.SubscriptionInHomePage.confirmSubscribe" />
         <item itemvalue="TestNG.SubscriptionInHomePage.enterEmailAndClick" />
-        <item itemvalue="Application.deneme" />
       </list>
     </recent_temporary>
   </component>

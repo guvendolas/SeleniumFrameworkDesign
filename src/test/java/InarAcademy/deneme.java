@@ -5,22 +5,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class deneme {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){
 
 
         WebDriverManager.chromedriver().setup();
@@ -31,14 +23,27 @@ public class deneme {
 
         driver.get("https://automationexercise.com/");
 
+        driver.findElement(By.xpath("(//ul//li//a)[2]")).click();
+        Assert.assertEquals(driver.findElement(By.xpath("//h2[contains(text(),'All Products')]")).getText(), "ALL PRODUCTS");
+        //you have to scroll your page. If you don't do this your code cant see the products
+        org.openqa.selenium.JavascriptExecutor scroll = (org.openqa.selenium.JavascriptExecutor) driver;
+        scroll.executeScript("window.scrollBy(0,200)");
 
-        org.openqa.selenium.JavascriptExecutor js = (org.openqa.selenium.JavascriptExecutor) driver;
 
-        js.executeScript("window.scrollBy(0,9000)");
+        //find products name get first product and click.
+        List<WebElement> itemsNameElement = driver.findElements(By.xpath("//div[@class='productinfo text-center']//p"));
+        WebElement firstElement = itemsNameElement.get(0);
+        firstElement.findElement(By.xpath("//div//a[@class='btn btn-default add-to-cart']")).click();
 
-        Thread.sleep(5000);
+        //view the cart
+        driver.findElement(By.xpath("//div[@class='modal-body']//u")).click();
+
+
+        //confirm in the cart product
+        String productName = driver.findElement(By.xpath("//div[@class='table-responsive cart_info']//h4")).getText();
+        Assert.assertEquals(productName,"Blue Top");
+
 
         driver.quit();
-
     }
 }
